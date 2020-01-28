@@ -1,0 +1,36 @@
+body{
+margin: auto;
+}
+h1{
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ a{
+   border-style: double;
+   border:-colour: black;
+ }
+ nav:hover {
+   transition: 0.3s;
+ }
+a:hover{
+  background:cyan;
+  color:black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main{
+  float: right;
+  float: left;
+  box-sizing: border-box;
+  width: 85;
+}
